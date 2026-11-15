@@ -1,0 +1,23 @@
+<svg class="circuit-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="An illustrative series circuit with a power source, resistor and LED">
+  <g class="circuit-traces" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path data-wire="0" stroke="currentColor" d="M102 145 L102 84 L198 84"/>
+    <path data-wire="1" stroke="currentColor" d="M278 84 L376 84 L376 135"/>
+    <path data-wire="2" stroke="currentColor" d="M376 180 L376 232 L102 232 L102 165"/>
+  </g>
+  <g class="circuit-symbols" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M198 84h11l7-12 9 24 9-24 9 24 9-24 8 12h18"/>
+    <path d="M376 135v10M361 145h30l-15 23zM361 168h30M376 168v12"/>
+    <path d="M388 151l17-12m-8 1 8-1-3 8m-9 14 17-12m-8 1 8-1-3 8" stroke-width="1.8"/>
+    <path d="M83 145h38m-31 20h24" />
+    <circle cx="102" cy="84" r="4" fill="currentColor" stroke="none"/>
+    <circle cx="376" cy="232" r="4" fill="currentColor" stroke="none"/>
+  </g>
+  <g class="circuit-symbols circuit-annotations" fill="currentColor">
+    <text x="194" y="54">RESISTOR</text>
+    <text x="393" y="193">LED</text>
+    <text x="54" y="143">+</text>
+    <text x="54" y="175">−</text>
+    <text x="102" y="269">SUPPLY</text>
+    <path d="M102 250v-12" stroke="currentColor" fill="none"/>
+  </g>
+</svg>
